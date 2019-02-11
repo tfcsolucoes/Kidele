@@ -328,7 +328,7 @@ blockquote p {
 	box-shadow: 0px 0px 0px 7px rgba(0,0,0,0.2);
 }
 .dark-header {
-	background:#2F3B59;
+	background:#013859;
 }
 .fs-header {
 	padding:0px 50px;
@@ -3432,12 +3432,12 @@ article .list-single-main-item {
 .onoffswitch-inner:before {
     content: "ON";
     padding-left: 21px;
-    background-color: #4DB7FE; color: #FFFFFF;
+    background-color: #c21f34; color: #FFFFFF;
 }
 .onoffswitch-inner:after {
     content: "OFF";
     padding-right: 21px;
-    background-color: #4DB7FE; color: #FFFFFF;
+    background-color: #c21f34; color: #FFFFFF;
     text-align: right;
 }
 .onoffswitch-switch {
@@ -4637,7 +4637,7 @@ article .list-single-main-item {
 }
 .testimonilas-avatar-item:before{
 	border-color:  transparent;
-	border-top-color: #4DB7FE;
+	border-top-color: #c21f34;
 	border-width: 14px;
 	margin-left: -14px;
 }
@@ -4778,7 +4778,7 @@ footer.main-footer.fixed-footer {
 	z-index:1;
 }
 .dark-footer {
-	background:#2C3B5A;
+	background:#013859;
 }
 .footer-widget h3 {
 	font-size:17px;
@@ -4793,7 +4793,7 @@ footer.main-footer.fixed-footer {
 }
 .sub-footer {
 	margin-top:40px;
-	background:#24324F;
+	background:#013859;
 	padding:28px 0;
 }
 .copyright {

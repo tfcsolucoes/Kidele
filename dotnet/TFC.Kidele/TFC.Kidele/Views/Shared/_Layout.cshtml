@@ -1,77 +1,147 @@
-﻿<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE HTML>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - TFC.Kidele</title>
-
-    <environment include="Development">
-        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
-    </environment>
-    <environment exclude="Development">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
-              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
-              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute"
-              crossorigin="anonymous"
-              integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE="/>
-    </environment>
-    <link rel="stylesheet" href="~/css/site.css" />
+    <!--=============== basic  ===============-->
+    <meta charset="UTF-8">
+    <title>Kidele - Encontre o que procura!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <!--=============== css  ===============-->
+    <link type="text/css" rel="stylesheet" href="~/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="~/css/plugins.css">
+    <link type="text/css" rel="stylesheet" href="~/css/style.css">
+    <link type="text/css" rel="stylesheet" href="~/css/color.css">
+    <!--=============== favicons ===============-->
+    <link rel="shortcut icon" href="~/images/kidele/icone.ico">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">TFC.Kidele</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <partial name="_CookieConsentPartial" />
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+    <!--loader-->
+    <div class="loader-wrap">
+        <div class="pin"></div>
+        <div class="pulse"></div>
     </div>
+    <!--loader end-->
+    <div class="container">
+        <!-- Main  -->
+        <div id="main">
+            <!-- header-->
+            <header class="main-header dark-header fs-header sticky">
+                <div class="header-inner">
+                    <div class="logo-holder">
+                        <a href="index.html"><img src="~/images/kidele/logo.png" alt=""></a>
+                    </div>
+                    <div class="header-search vis-header-search">
+                        <div class="header-search-input-item">
+                            <input type="text" placeholder="Palavra-chave" value="" />
+                        </div>
+                        <div class="header-search-select-item">
+                            <select data-placeholder="Todos" class="chosen-select">
+                                <option>Categorias</option>
+                                <option>Comércio</option>
+                                <option>Eventos</option>
+                                <option>Restaurantes</option>
+                                <option>Serviços</option>
+                            </select>
+                        </div>
+                        <button class="header-search-button" onclick="window.location.href='listing.html'">Pesquisar</button>
+                    </div>
+                    <div class="show-search-button"><i class="fa fa-search"></i> <span>Pesquisar</span></div>
+                    <div class="nav-button-wrap color-bg">
+                        <div class="nav-button">
+                            <span></span><span></span><span></span>
+                        </div>
+                    </div>
+                    <!-- nav-button-wrap end-->
+                </div>
+            </header>
+            <!--  header end -->
+            <!--  wrapper  -->
+            <div id="wrapper">
+                <!-- Content-->
+                <div class="content">
+                    <!--section -->
+                    <section class="scroll-con-sec hero-section" data-scrollax-parent="true" id="sec1">
+                        <div class="bg" data-bg="images/32.jpg" data-scrollax="properties: { translateY: '200px' }"></div>
+                        <div class="overlay"></div>
+                        <div class="hero-section-wrap fl-wrap">
+                            <div class="container">
+                                <div class="intro-item fl-wrap">
+                                    <h2>Nós temos o que procura!</h2>
+                                    <h3>Procure por diversas categorias de serviço, comércio, eventos, entre outros.</h3>
+                                </div>
+                                <div class="main-search-input-wrap">
+                                    <div class="main-search-input fl-wrap">
+                                        <div class="main-search-input-item location" id="autocomplete-container">
+                                            <input type="text" placeholder="Localização" id="autocomplete-input" value="" />
+                                            <a href="#"><i class="fa fa-dot-circle-o"></i></a>
+                                        </div>
+                                        <div class="main-search-input-item">
+                                            <input type="text" placeholder="O que você procura?" value="" />
+                                        </div>
+                                        <div class="main-search-input-item">
+                                            <select data-placeholder="Todos" class="chosen-select">
+                                                <option>Categorias</option>
+                                                <option>Comércio</option>
+                                                <option>Eventos</option>
+                                                <option>Restaurantes</option>
+                                                <option>Serviços</option>
+                                            </select>
+                                        </div>
+                                        <button class="main-search-button" onclick="window.location.href='listings-half-screen-map-list.html'">Procurar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <!-- Content end -->
+            </div>
+            <!-- wrapper end -->
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2019 - TFC.Kidele - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            @RenderBody()
+
+            <!--footer -->
+            <footer class="main-footer dark-footer  ">
+                <div class="sub-footer fl-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="about-widget">
+                                    <img src="images/kidele/logo.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="copyright"> &#169; Kidele 2018 .  All rights reserved.</div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="footer-social">
+                                    <ul>
+                                        <li><a href="#" target="_blank"><i class="fa fa-facebook-official"></i></a></li>
+                                        <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#" target="_blank"><i class="fa fa-chrome"></i></a></li>
+                                        <li><a href="#" target="_blank"><i class="fa fa-vk"></i></a></li>
+                                        <li><a href="#" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!--footer end  -->
+            <a class="to-top"><i class="fa fa-angle-up"></i></a>
+
         </div>
-    </footer>
+    </div>
+    <!-- Main end -->
+    <!--=============== scripts  ===============-->
+    <script type="text/javascript" src="~/js/jquery.min.js"></script>
+    <script type="text/javascript" src="~/js/plugins.js"></script>
+    <script type="text/javascript" src="~/js/scripts.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAG-riu4SLHD0k6hWYpm8I7_3Cf30Mnrbs&libraries=places&callback=initAutocomplete"></script>
 
-    <environment include="Development">
-        <script src="~/lib/jquery/dist/jquery.js"></script>
-        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    </environment>
-    <environment exclude="Development">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
-                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
-                asp-fallback-test="window.jQuery"
-                crossorigin="anonymous"
-                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=">
-        </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"
-                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
-                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
-                crossorigin="anonymous"
-                integrity="sha256-E/V4cWE4qvAeO5MOhjtGtqDzPndRO1LBk8lJ/PR7CA4=">
-        </script>
-    </environment>
-    <script src="~/js/site.js" asp-append-version="true"></script>
 
-    @RenderSection("Scripts", required: false)
 </body>
 </html>

@@ -213,7 +213,7 @@ handleTweets(arrayTweets);inProgress=false;if(queue.length>0){twitterFetcher.fet
                 .addClass($select.attr('disabled') ? 'disabled' : '')
                 .addClass($select.attr('multiple') ? 'has-multiple' : '')
                 .attr('tabindex', $select.attr('disabled') ? null : '0')
-                .html($select.attr('multiple') ? '<span class="multiple-options"></span><div class="nice-select-search-box"><input type="text" class="nice-select-search" placeholder="Search..."/></div><ul class="list"></ul>' : '<span class="current"></span><div class="nice-select-search-box"><input type="text" class="nice-select-search" placeholder="Search..."/></div><ul class="list"></ul>')
+                .html($select.attr('multiple') ? '<span class="multiple-options"></span><div class="nice-select-search-box"><input type="text" class="nice-select-search" placeholder="Pesquise..."/></div><ul class="list"></ul>' : '<span class="current"></span><div class="nice-select-search-box"><input type="text" class="nice-select-search" placeholder="Pesquise..."/></div><ul class="list"></ul>')
             );
 
             var $dropdown = $select.next();

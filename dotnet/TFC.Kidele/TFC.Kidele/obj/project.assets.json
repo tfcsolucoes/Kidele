@@ -14587,11 +14587,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\TFC.Kidele\\TFC.Kidele\\TFC.Kidele.csproj",
+      "projectUniqueName": "C:\\Projetos\\Kidele\\dotnet\\TFC.Kidele\\TFC.Kidele\\TFC.Kidele.csproj",
       "projectName": "TFC.Kidele",
-      "projectPath": "C:\\Projetos\\TFC.Kidele\\TFC.Kidele\\TFC.Kidele.csproj",
+      "projectPath": "C:\\Projetos\\Kidele\\dotnet\\TFC.Kidele\\TFC.Kidele\\TFC.Kidele.csproj",
       "packagesPath": "C:\\Users\\aline\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\TFC.Kidele\\TFC.Kidele\\obj\\",
+      "outputPath": "C:\\Projetos\\Kidele\\dotnet\\TFC.Kidele\\TFC.Kidele\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

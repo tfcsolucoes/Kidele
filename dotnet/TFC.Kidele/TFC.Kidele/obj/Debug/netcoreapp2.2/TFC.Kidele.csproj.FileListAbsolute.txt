@@ -51,3 +51,5 @@ C:\Users\tafarel.gasparin\Documents\Pessoal\GitHub\Kidele\dotnet\TFC.Kidele\TFC.
 C:\Users\tafarel.gasparin\Documents\Pessoal\GitHub\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\TFC.Kidele.dll
 C:\Users\tafarel.gasparin\Documents\Pessoal\GitHub\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\TFC.Kidele.pdb
 C:\Users\tafarel.gasparin\Documents\Pessoal\GitHub\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\TFC.Kidele.csproj.CopyComplete
+C:\Users\tafarel.gasparin\Documents\Pessoal\GitHub\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\TFC.Kidele.csprojAssemblyReference.cache
+C:\Users\tafarel.gasparin\Documents\Pessoal\GitHub\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout - Kidele.g.cshtml.cs

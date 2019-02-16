@@ -9,139 +9,29 @@
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <!--=============== css  ===============-->
-    <link type="text/css" rel="stylesheet" href="~/css/reset.css">
-    <link type="text/css" rel="stylesheet" href="~/css/plugins.css">
-    <link type="text/css" rel="stylesheet" href="~/css/style.css">
-    <link type="text/css" rel="stylesheet" href="~/css/color.css">
+    
     <!--=============== favicons ===============-->
     <link rel="shortcut icon" href="~/images/kidele/icone.ico">
 </head>
-<body>
-    <!--loader-->
-    <div class="loader-wrap">
-        <div class="pin"></div>
-        <div class="pulse"></div>
-    </div>
+<body  style="background-color:#013859">
+   
     <!--loader end-->
-    <div class="container">
+    <div class="container" align="center">
         <!-- Main  -->
         <div id="main">
-            <!-- header-->
-            <header class="main-header dark-header fs-header sticky">
-                <div class="header-inner">
-                    <div class="logo-holder">
-                        <a href="index.html"><img src="~/images/kidele/logo.png" alt=""></a>
-                    </div>
-                    <div class="header-search vis-header-search">
-                        <div class="header-search-input-item">
-                            <input type="text" placeholder="Palavra-chave" value="" />
-                        </div>
-                        <div class="header-search-select-item">
-                            <select data-placeholder="Todos" class="chosen-select">
-                                <option>Categorias</option>
-                                <option>Comércio</option>
-                                <option>Eventos</option>
-                                <option>Restaurantes</option>
-                                <option>Serviços</option>
-                            </select>
-                        </div>
-                        <button class="header-search-button" onclick="window.location.href='listing.html'">Pesquisar</button>
-                    </div>
-                    <div class="show-search-button"><i class="fa fa-search"></i> <span>Pesquisar</span></div>
-                    <div class="nav-button-wrap color-bg">
-                        <div class="nav-button">
-                            <span></span><span></span><span></span>
-                        </div>
-                    </div>
-                    <!-- nav-button-wrap end-->
-                </div>
-            </header>
-            <!--  header end -->
-            <!--  wrapper  -->
-            <div id="wrapper">
-                <!-- Content-->
-                <div class="content">
-                    <!--section -->
-                    <section class="scroll-con-sec hero-section" data-scrollax-parent="true" id="sec1">
-                        <div class="bg" data-bg="images/32.jpg" data-scrollax="properties: { translateY: '200px' }"></div>
-                        <div class="overlay"></div>
-                        <div class="hero-section-wrap fl-wrap">
-                            <div class="container">
-                                <div class="intro-item fl-wrap">
-                                    <h2>Nós temos o que procura!</h2>
-                                    <h3>Procure por diversas categorias de serviço, comércio, eventos, entre outros.</h3>
-                                </div>
-                                <div class="main-search-input-wrap">
-                                    <div class="main-search-input fl-wrap">
-                                        <div class="main-search-input-item location" id="autocomplete-container">
-                                            <input type="text" placeholder="Localização" id="autocomplete-input" value="" />
-                                            <a href="#"><i class="fa fa-dot-circle-o"></i></a>
-                                        </div>
-                                        <div class="main-search-input-item">
-                                            <input type="text" placeholder="O que você procura?" value="" />
-                                        </div>
-                                        <div class="main-search-input-item">
-                                            <select data-placeholder="Todos" class="chosen-select">
-                                                <option>Categorias</option>
-                                                <option>Comércio</option>
-                                                <option>Eventos</option>
-                                                <option>Restaurantes</option>
-                                                <option>Serviços</option>
-                                            </select>
-                                        </div>
-                                        <button class="main-search-button" onclick="window.location.href='listings-half-screen-map-list.html'">Procurar</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <!-- Content end -->
-            </div>
-            <!-- wrapper end -->
 
+            <div style="color:#fff" class="txtNew" id="comp-irarbd0i"><h6 class="font_6" style="text-align:center;"><span class="color_11"><span style="letter-spacing:0.2em;">KIDELE.COM.BR</span></span></h6></div>
+            <h4 class="font_3" style="height:25px; font-size:50px; line-height:1.2em; text-align:center; color:#fff"><span class="color_11"><span style="letter-spacing:0.25em;">EM</span></span></h4>
+            <h4 class="font_3" style="height:25px; font-size:50px; line-height:1.2em; text-align:center; color:#fff"><span class="color_11"><span style="letter-spacing:0.25em;">BREVE</span></span></h4>
+            <div style="color:#fff" class="txtNew" id="comp-irarbd0i"><h6 class="font_6" style="text-align:center;"><span class="color_11"><span style="letter-spacing:0.2em;">FIQUE LIGADO!</span></span></h6></div>
             @RenderBody()
 
-            <!--footer -->
-            <footer class="main-footer dark-footer  ">
-                <div class="sub-footer fl-wrap">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="about-widget">
-                                    <img src="images/kidele/logo.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="copyright"> &#169; Kidele 2018 .  All rights reserved.</div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="footer-social">
-                                    <ul>
-                                        <li><a href="#" target="_blank"><i class="fa fa-facebook-official"></i></a></li>
-                                        <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#" target="_blank"><i class="fa fa-chrome"></i></a></li>
-                                        <li><a href="#" target="_blank"><i class="fa fa-vk"></i></a></li>
-                                        <li><a href="#" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-            <!--footer end  -->
-            <a class="to-top"><i class="fa fa-angle-up"></i></a>
 
         </div>
     </div>
     <!-- Main end -->
     <!--=============== scripts  ===============-->
-    <script type="text/javascript" src="~/js/jquery.min.js"></script>
-    <script type="text/javascript" src="~/js/plugins.js"></script>
-    <script type="text/javascript" src="~/js/scripts.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAG-riu4SLHD0k6hWYpm8I7_3Cf30Mnrbs&libraries=places&callback=initAutocomplete"></script>
-
+    
 
 </body>
 </html>

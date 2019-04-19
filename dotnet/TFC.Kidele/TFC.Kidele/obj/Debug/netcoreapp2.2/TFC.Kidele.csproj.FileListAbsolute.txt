@@ -53,3 +53,35 @@ C:\Users\tafarel.gasparin\Documents\Pessoal\GitHub\Kidele\dotnet\TFC.Kidele\TFC.
 C:\Users\tafarel.gasparin\Documents\Pessoal\GitHub\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\TFC.Kidele.csproj.CopyComplete
 C:\Users\tafarel.gasparin\Documents\Pessoal\GitHub\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\TFC.Kidele.csprojAssemblyReference.cache
 C:\Users\tafarel.gasparin\Documents\Pessoal\GitHub\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout - Kidele.g.cshtml.cs
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\bin\Debug\netcoreapp2.2\TFC.Kidele.deps.json
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\bin\Debug\netcoreapp2.2\TFC.Kidele.runtimeconfig.json
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\bin\Debug\netcoreapp2.2\TFC.Kidele.runtimeconfig.dev.json
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\bin\Debug\netcoreapp2.2\TFC.Kidele.dll
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\bin\Debug\netcoreapp2.2\TFC.Kidele.pdb
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\bin\Debug\netcoreapp2.2\TFC.Kidele.Views.dll
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\bin\Debug\netcoreapp2.2\TFC.Kidele.Views.pdb
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\TFC.Kidele.csprojAssemblyReference.cache
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\TFC.Kidele.csproj.CoreCompileInputs.cache
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\TFC.Kidele.RazorAssemblyInfo.cache
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\TFC.Kidele.RazorAssemblyInfo.cs
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\TFC.Kidele.AssemblyInfoInputs.cache
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\TFC.Kidele.AssemblyInfo.cs
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\TFC.Kidele.TagHelpers.input.cache
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\TFC.Kidele.TagHelpers.output.cache
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\TFC.Kidele.RazorCoreGenerate.cache
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout - Copy.g.cshtml.cs
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\TFC.Kidele.RazorTargetAssemblyInfo.cache
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\TFC.Kidele.RazorTargetAssemblyInfo.cs
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\TFC.Kidele.Views.pdb
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\TFC.Kidele.dll
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\TFC.Kidele.pdb
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\TFC.Kidele.csproj.CopyComplete
+C:\Projetos\Kidele\dotnet\TFC.Kidele\TFC.Kidele\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LayoutKidele.g.cshtml.cs

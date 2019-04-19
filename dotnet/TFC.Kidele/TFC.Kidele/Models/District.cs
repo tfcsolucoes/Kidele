@@ -14,5 +14,7 @@ namespace TFC.Kidele.Models
         public virtual City City { get; set; }
         [StringLength(100)]
         public string Name { get; set; }
+
+        public virtual ICollection<Address> Addresses { get; set; }
     }
 }

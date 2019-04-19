@@ -14,6 +14,7 @@ namespace TFC.Kidele.Models
         public string Login { get; set; }
         public string Password { get; set; }
         public string Email { get; set; }
+        public int UserTypeId { get; set; }
         public DateTime CreateDate { get; set; }
         public DateTime? UpdateDate { get; set; }
     }

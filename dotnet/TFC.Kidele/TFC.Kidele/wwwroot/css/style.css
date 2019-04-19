@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /*======================================
  [ -Main Stylesheet-
   Theme: CityBook
@@ -171,8 +171,7 @@ blockquote p {
 	opacity:0;
 }
 .container{
-	max-width: 1224px;
-	width:92%;
+	width:100%;
 	margin:0 auto;
 	position: relative;
 	z-index:5;
@@ -4762,9 +4761,9 @@ article .list-single-main-item {
 /*------ footer------------------------------------------------*/
 footer.main-footer {
 	float:left;
-	width:100%;
+	width: 100%;
 	position:relative;
-	padding:90px 0 0 0;
+	padding:20px 20px 0 20px;
 	z-index:50;
 	overflow: hidden;
 }

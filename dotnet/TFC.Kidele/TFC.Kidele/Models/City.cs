@@ -14,7 +14,10 @@ namespace TFC.Kidele.Models
         public float Latitude { get; set; }
         public float Longitude { get; set; }
         public bool IsCapital { get; set; }
+
         [ForeignKey("StateId")]
         public virtual State State { get; set; }
+
+        public virtual ICollection<District> Districts { get; set; }
     }
 }

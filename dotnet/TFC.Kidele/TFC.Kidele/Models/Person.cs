@@ -16,5 +16,7 @@ namespace TFC.Kidele.Models
         public int? PersonGenderId { get; set; }
         public DateTime CreateDate { get; set; }
         public DateTime? UpdateDate { get; set; }
+
+        public virtual ICollection<User> Users { get; set; }
     }
 }
